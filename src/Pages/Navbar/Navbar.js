@@ -13,7 +13,7 @@ const Navbar = () => {
                         <span>  </span>
                     </div>
                     <div>
-                        <img className='ml-48' src={logo} alt="" />
+                        <img className='ml-64' src={logo} alt="" />
                     </div>
                     <div className='mr-7'>
                         <div style={{ color: '#3E7C7C' }} className='flex items-center justify-end mr-10'>
