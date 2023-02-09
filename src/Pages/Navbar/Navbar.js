@@ -29,7 +29,10 @@ const Navbar = () => {
                 </div>
                 <div style={{ color: '#3E7C7C' }} className='flex justify-center'>
                     <span className='mx-10'>Home</span>
-                    <span className='mx-10 '><span className='w-20 border-b-2 border-indigo-800'>New In</span></span>
+                    <div className='mx-10 relative'>
+                        <span>New In</span>
+                        <p style={{ width: '115px', marginLeft: '-30px', borderColor: '#3E7C7C' }} className='border-b-2 mt-2 absolute'></p>
+                    </div>
                     <span className='mx-10'>Shop</span>
                     <span className='mx-10'>About Us</span>
                 </div>
