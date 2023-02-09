@@ -1,5 +1,8 @@
 import React from 'react';
 import logo from '../../images/logo.webp'
+import { RxInstagramLogo } from 'react-icons/rx'
+import { BsYoutube, BsWhatsapp } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
 
 const Footer = () => {
     return (
@@ -11,7 +14,7 @@ const Footer = () => {
                     </div>
                     <h4 style={{ color: '#3E7C7C' }} className='absolute top-28 left-5'>"You Always Desires"</h4>
                 </div>
-                <div style={{ color: '#3E7C7C' }} className='ml-20'>
+                <div style={{ color: '#3E7C7C' }} className='ml-36'>
                     <a href="/" alt=''><u>Home</u></a><br />
                     <a href="/" alt=''><u>About Us</u></a><br />
                     <a href="/" alt=''><u>Western Sets</u></a><br />
@@ -21,8 +24,11 @@ const Footer = () => {
                     <a href="/" alt=''><u>Terms & Conditions</u></a><br />
                     <a href="/" alt=''><u>Privacy Policies</u></a><br />
                     <a href="/" alt=''><u>Contact Us</u></a><br />
-                    <div>
-                        <span>icon</span>
+                    <div className='mt-5 flex justify-center items-center'>
+                        <RxInstagramLogo className='p-1 h-6 w-6 bg-black text-white rounded-full'></RxInstagramLogo>
+                        <BsYoutube className='p-1 h-6 w-6 mx-2 bg-black text-white rounded-full'></BsYoutube>
+                        <BsWhatsapp className='p-1 h-6 w-6 mr-2 bg-black text-white rounded-full'></BsWhatsapp>
+                        <FaFacebookF className='p-1 h-6 w-6 bg-black text-white rounded-full'></FaFacebookF>
                     </div>
                 </div>
                 <div style={{ color: '#3E7C7C' }}>
